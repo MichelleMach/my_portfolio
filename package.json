@@ -1,0 +1,36 @@
+{
+  "name": "sergio-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev & nodemon -w server/server.js server/server.js",
+    "build": "next build",
+    "start": "next start",
+    "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "isotope-layout": "^3.0.6",
+    "next": "^12.3.1",
+    "node-sass": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-tsparticles": "^2.5.3",
+    "simple-pdf": "^0.1.14",
+    "swiper": "^8.4.4",
+    "tsparticles": "^2.5.3",
+    "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "sass": "^1.58.0"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
