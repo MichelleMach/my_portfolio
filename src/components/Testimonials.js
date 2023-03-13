@@ -34,58 +34,54 @@ const Testimonials = () => {
       <Swiper {...props}>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/team-1.jpg" title="" alt="" />
+            <img src="static/img/ricardo-souza-testemunial.jpg" title="ricardo-souza-testemunial" alt="ricardo-souza-testemunial" />
           </div>
           <div className="media-body">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the {`industry's`} standard dummy
-              text ever since the 1500s.
+              Procurei por profissionais de tecnologia que pudessem fazer um site com a cara da minha empresa.
+              A Michelle foi uma profissional que me passou a confiança que eu precisava.
             </p>
-            <h6>Jennifer Lutheran</h6>
-            <span>CEO at pxdraft</span>
+            <h6>Ricardo de Souza</h6>
+            {/* <span>CEO at Geek Burguer</span> */}
           </div>
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/team-2.jpg" title="" alt="" />
+            <img src="static/img/victor-leandro-testemunial.jpg" title="victor-leandro-testemunial" alt="victor-leandro-testemunial" />
           </div>
           <div className="media-body">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the {`industry's`} standard dummy
-              text ever since the 1500s.
+              Durante o período de desenvolvimento, Michelle foi uma pessoa extremamente comunicativa, 
+              buscando manter o contato e compartilhar conhecimentos.
             </p>
-            <h6>Jennifer Lutheran</h6>
-            <span>CEO at pxdraft</span>
+            <h6>Victor Leandro Eleuterio</h6>
+            {/* <span>Coworker at Labenu</span> */}
           </div>
         </SwiperSlide>
-        <SwiperSlide className="testimonial-01 media">
+        {/* <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/team-3.jpg" title="" alt="" />
+            <img src="static/img/profile.png" title="fabricio-testemunial" alt="fabricio-testemunial" />
           </div>
           <div className="media-body">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the {`industry's`} standard dummy
-              text ever since the 1500s.
+              A Michelle se mostrou uma profissional comprometida e determinada. 
+              Sempre enfrentando os problema e com curiosidade de buscar soluções.  
             </p>
-            <h6>Jennifer Lutheran</h6>
-            <span>CEO at pxdraft</span>
+            <h6>Gabriela Nasciment</h6>
+            <span>Gerente at SulSystem</span>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/team-1.jpg" title="" alt="" />
+            <img src="static/img/rafael-santos-testemunial.jpg" title="rafael-santos-testemunial" alt="rafael-santos-testemunial" />
           </div>
           <div className="media-body">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the {`industry's`} standard dummy
-              text ever since the 1500s.
+              A Michelle foi um grande alicerce para eu construir o meu negócio. Sempre me deu muito apoio
+              , além de conversarmos muito sobre como melhorar o business.
             </p>
-            <h6>Jennifer Lutheran</h6>
-            <span>CEO at pxdraft</span>
+            <h6>Rafael Santos</h6>
+            {/* <span>Coworker at Labenu</span> */}
           </div>
         </SwiperSlide>
       </Swiper>

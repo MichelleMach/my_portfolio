@@ -1,8 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:    Sergio Personal Portfolio
-Version:    1.0
+Project:   Michelle Machado Portfolio
 Primary use:    pxdraft
 -------------------------------------------------------------------*/
 /*
@@ -55,7 +54,7 @@ a:hover {
 }
 
 mark {
-  background-image: linear-gradient(#f61e4e, #f61e4e);
+  background-image: linear-gradient(#f61e4e, #e6cf05);
   background-size: 100% 3px;
   background-repeat: no-repeat;
   background-position: 0 bottom;
@@ -1170,7 +1169,8 @@ mark {
 }
 @media (min-width: 992px) {
   .home-banner .hb-img img {
-    max-width: 100%;
+    width: 85%;
+    object-fit: cover;
   }
 }
 .home-banner .type-box {
@@ -1521,6 +1521,7 @@ mark {
   width: 100px;
   height: 100px;
   overflow: hidden;
+  object-fit: contain;
 }
 @media (max-width: 767px) {
   .testimonial-01 .avatar {

@@ -50,7 +50,7 @@ const Contact = () => {
   };
   return (
     <section
-      id="contactus"
+      id="contact"
       data-nav-tooltip="Contact Me"
       className="pp-section pp-scrollable section dark-bg"
     >

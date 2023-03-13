@@ -39,7 +39,7 @@ const Portfolio = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>My Portfolio.</h3>
+          <h3 id="portfolio">My Portfolio.</h3>
         </div>
         <div className="portfolio-filter-01">
           <ul className="filter nav">
@@ -51,85 +51,72 @@ const Portfolio = () => {
               All
             </li>
             <li
-              className={`c-pointer ${activeBtn("branding")}`}
-              onClick={handleFilterKeyChange("branding")}
-              data-filter=".branding"
+              className={`c-pointer ${activeBtn("front-end")}`}
+              onClick={handleFilterKeyChange("front-end")}
+              data-filter=".front-end"
             >
               Front-End
             </li>
             <li
-              className={`c-pointer ${activeBtn("photoshop")}`}
-              onClick={handleFilterKeyChange("photoshop")}
-              data-filter=".photoshop"
+              className={`c-pointer ${activeBtn("back-end")}`}
+              onClick={handleFilterKeyChange("back-end")}
+              data-filter=".back-end"
             >
               Back-End
             </li>
             <li
-              className={`c-pointer ${activeBtn("fashion")}`}
-              onClick={handleFilterKeyChange("fashion")}
-              data-filter=".fashion"
+              className={`c-pointer ${activeBtn("ux")}`}
+              onClick={handleFilterKeyChange("ux")}
+              data-filter=".ux"
             >
               UX-Design
             </li>
-            {/* <li
-              className={`c-pointer ${activeBtn("product")}`}
-              onClick={handleFilterKeyChange("product")}
-              data-filter=".product"
-            >
-              Product
-            </li> */}
           </ul>
         </div>{" "}
         {/* Portfolio Filter */}
         <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-          <div className="grid-item product branding fashion">
+          <div className="grid-item front-end ux">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">FutureEats Delivery</h5>
+                <span>Delivery App</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-1.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-1.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <a
+                  href="https://oafish-quince.surge.sh"
+                  className="gallery-link"
+                >
+                  <img src="static/img/portfolio-4.png" title="ifood-delivery" alt="ifood-delivery" />
+                </a>
               </div>
             </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item photoshop">
+          </div>
+
+          <div className="grid-item front-end">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Pokedex</h5>
+                <span>Pokemon Battle Game</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-2.jpg" title="" alt="" />
-                <div className="portfolio-icon">
                   <a
-                    href="static/img/m-portfolio-2.jpg"
+                    href="https://pokedex16-battle.surge.sh"
                     className="gallery-link"
                   >
-                    <span className="ti-plus" />
+                     <img src="static/img/portfolio-6.png" title="pokedex" alt="pokedex" />
                   </a>
-                </div>
               </div>
             </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
+          </div>
+
+          {/* <div className="grid-item front-end">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Controle-Financeiro</h5>
+                <span>Entrada, Saida e Total Financeiro</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-3.jpg" title="" alt="" />
+                <img src="static/img/portfolio-5-1.png" title="controle-financeiro" alt="controle-financeiro" />
                 <div className="portfolio-icon">
                   <a
                     href="static/img/m-portfolio-3.jpg"
@@ -140,89 +127,28 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product photoshop">
+          </div> */}
+          {/* <div className="grid-item back-end">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Jogo da Velha</h5>
+                <span>Tic Tac Toe</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-5.jpg" title="" alt="" />
-                <div className="portfolio-icon">
                   <a
-                    href="static/img/m-portfolio-5.jpg"
+                    href="three-quartz.surge.sh"
                     className="gallery-link"
                   >
-                    <span className="ti-plus" />
+                    <img src="static/img/jogo-da-velha.png" title="jogo-da-velha" alt="jogo-da-velha" />
                   </a>
-                </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
+
+         
+        
           {/* grid item */}
-          <div className="grid-item branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-4.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product photoshop">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-6.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-6.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item fashion">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-7.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-7.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
+          {/* <div className="grid-item front-end">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -240,9 +166,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item fashion">
+          {/* <div className="grid-item ux">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -260,7 +186,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>{" "} */}
           {/* grid item */}
         </div>
       </div>

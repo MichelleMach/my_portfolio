@@ -1,6 +1,10 @@
 import Link from "next/link";
+import Login from "../../pages/api/login";
+import Logout from "../../pages/api/logout";
+import { useEffect } from "react";
 
 const Blog = () => {
+
   return (
     <section
       id="blog"
@@ -24,12 +28,11 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                 <h6>
-                  <Link href="/single-blog">
                     <a>
                       Five Solid Evidences Attending Design Is Good For Your
                       Career Development.
                     </a>
-                  </Link>
+                  
                 </h6>
               </div>
             </div>

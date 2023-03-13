@@ -46,7 +46,7 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="#">
+          {/* <a href="#">
             <i className="fab fa-facebook-f" />
           </a>
           <a href="#">
@@ -54,8 +54,8 @@ const Header = ({ blog }) => {
           </a>
           <a href="#">
             <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
+          </a> */}
+          <a href="https://www.linkedin.com/in/perfil-michelle-machado/">
             <i className="fab fa-linkedin-in" />
           </a>
           <a href="#">
@@ -95,14 +95,14 @@ const MenuWithOutBlog = () => {
           <span>Portfolio</span>
         </a>
       </li>
-      <li data-menuanchor="blog" className="blog">
+      {/* <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Blogs</span>
         </a>
-      </li>
-      <li data-menuanchor="contactus">
-        <a className="nav-link" href="#contactus">
+      </li> */}
+      <li data-menuanchor="contact">
+        <a className="nav-link" href="#contact">
           <i className="ti-map-alt" />
           <span>Contact Me</span>
         </a>
@@ -153,16 +153,16 @@ const MenuWithBlog = () => {
             </a>
           </Link>
         </li>
-        <li data-menuanchor="blog" className="blog active">
+        {/* <li data-menuanchor="blog" className="blog active">
           <Link href="/#blog">
             <a className="nav-link">
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
             </a>
           </Link>
-        </li>
-        <li data-menuanchor="contactus">
-          <Link href="/#contactus">
+        </li> */}
+        <li data-menuanchor="contact">
+          <Link href="/#contact">
             <a className="nav-link">
               <i className="ti-map-alt" />
               <span>Contact Me</span>
