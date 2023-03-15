@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
-              <h4>Diga um "olá"</h4>
+              <h4>Diga um ola</h4>
               <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   <div className="col-md-6">

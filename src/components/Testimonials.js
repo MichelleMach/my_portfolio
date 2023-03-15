@@ -7,6 +7,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
 const Testimonials = () => {
   const props = {
@@ -34,7 +35,7 @@ const Testimonials = () => {
       <Swiper {...props}>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/ricardo-souza-testemunial.jpg" title="ricardo-souza-testemunial" alt="ricardo-souza-testemunial" />
+            <Image src="/static/img/ricardo-souza-testemunial.jpg" title="ricardo-souza-testemunial" alt="ricardo-souza-testemunial" width={200} height={200}  />
           </div>
           <div className="media-body">
             <p>
@@ -47,7 +48,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/victor-leandro-testemunial.jpg" title="victor-leandro-testemunial" alt="victor-leandro-testemunial" />
+            <Image src="/static/img/victor-leandro-testemunial.jpg" title="victor-leandro-testemunial" alt="victor-leandro-testemunial" width={200} height={200} />
           </div>
           <div className="media-body">
             <p>
@@ -60,7 +61,7 @@ const Testimonials = () => {
         </SwiperSlide>
         {/* <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/profile.png" title="fabricio-testemunial" alt="fabricio-testemunial" />
+            <Image src="/static/img/profile.png" title="fabricio-testemunial" alt="fabricio-testemunial" width={200} height={200}/>
           </div>
           <div className="media-body">
             <p>
@@ -73,7 +74,7 @@ const Testimonials = () => {
         </SwiperSlide> */}
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <img src="static/img/rafael-santos-testemunial.jpg" title="rafael-santos-testemunial" alt="rafael-santos-testemunial" />
+            <Image src="/static/img/rafael-santos-testemunial.jpg" title="rafael-santos-testemunial" alt="rafael-santos-testemunial" width={200} height={200} />
           </div>
           <div className="media-body">
             <p>

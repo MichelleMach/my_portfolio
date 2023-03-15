@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section
@@ -11,7 +13,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="../static/img/about-me.jpg" title="" alt="" />
+                  <Image src="/static/img/about-me.jpg" title="" alt="" width={450} height={300} />
                 </div>
               </div>
             </div>

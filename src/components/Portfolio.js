@@ -1,5 +1,6 @@
 import Isotope from "isotope-layout";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 const Portfolio = () => {
   // Isotope
   const isotope = useRef();
@@ -86,7 +87,7 @@ const Portfolio = () => {
                   href="https://oafish-quince.surge.sh"
                   className="gallery-link"
                 >
-                  <img src="static/img/portfolio-4.png" title="ifood-delivery" alt="ifood-delivery" />
+                  <Image src="/static/img/portfolio-4.png" title="ifood-delivery" alt="ifood-delivery" width={300} height={500} />
                 </a>
               </div>
             </div>
@@ -99,12 +100,12 @@ const Portfolio = () => {
                 <span>Pokemon Battle Game</span>
               </div>
               <div className="portfolio-img">
-                  <a
-                    href="https://pokedex16-battle.surge.sh"
-                    className="gallery-link"
-                  >
-                     <img src="static/img/portfolio-6.png" title="pokedex" alt="pokedex" />
-                  </a>
+                <a
+                  href="https://pokedex16-battle.surge.sh"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/portfolio-6.png" title="pokedex" alt="pokedex" width={300} height={380}/>
+                </a>
               </div>
             </div>
           </div>
@@ -116,7 +117,7 @@ const Portfolio = () => {
                 <span>Entrada, Saida e Total Financeiro</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/portfolio-5-1.png" title="controle-financeiro" alt="controle-financeiro" />
+                <Image src="/static/img/portfolio-5-1.png" title="controle-financeiro" alt="controle-financeiro" />
                 <div className="portfolio-icon">
                   <a
                     href="static/img/m-portfolio-3.jpg"
@@ -139,14 +140,14 @@ const Portfolio = () => {
                     href="three-quartz.surge.sh"
                     className="gallery-link"
                   >
-                    <img src="static/img/jogo-da-velha.png" title="jogo-da-velha" alt="jogo-da-velha" />
+                    <Image src="/static/img/jogo-da-velha.png" title="jogo-da-velha" alt="jogo-da-velha" />
                   </a>
               </div>
             </div>
           </div>{" "} */}
 
-         
-        
+
+
           {/* grid item */}
           {/* <div className="grid-item front-end">
             <div className="portfolio-box-01">
@@ -155,7 +156,7 @@ const Portfolio = () => {
                 <span>Broadcasting ios App</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-8.jpg" title="" alt="" />
+                <Image src="/static/img/m-portfolio-8.jpg" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="static/img/m-portfolio-8.jpg"
@@ -175,7 +176,7 @@ const Portfolio = () => {
                 <span>Broadcasting ios App</span>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-9.jpg" title="" alt="" />
+                <Image src="/static/img/m-portfolio-9.jpg" title="" alt="" />
                 <div className="portfolio-icon">
                   <a
                     href="static/img/m-portfolio-9.jpg"

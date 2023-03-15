@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
+import Image from "next/image";
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
   useEffect(() => {
@@ -14,7 +15,7 @@ const Header = ({ blog }) => {
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/">
-              <a className="logo-text">Sergio</a>
+              <a className="logo-text">Meu Portfólio</a>
             </Link>
           </div>
           <button
@@ -30,15 +31,14 @@ const Header = ({ blog }) => {
       {/* End Header */}
       {/* nav bar */}
       <header
-        className={`header-left ${
-          sideBarToggle ? "menu-open menu-open-desk" : ""
-        }`}
+        className={`header-left ${sideBarToggle ? "menu-open menu-open-desk" : ""
+          }`}
       >
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/foto_perfil.jpg" title="" alt="" />
+                <Image src="/static/img/foto_perfil.jpg" title="" alt="" width={200} height={200}  />
               </div>
               <h5>Michelle Machado</h5>
             </div>
