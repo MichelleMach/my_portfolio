@@ -5,6 +5,7 @@ const Testimonials = dynamic(() => import("./Testimonials"), {
 });
 
 const Services = () => {
+
   return (
     <section
       id="services"
@@ -66,6 +67,7 @@ const Services = () => {
           </div>
         </div>
         <div className="separated" />
+
         <Testimonials />
       </div>
     </section>

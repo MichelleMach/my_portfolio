@@ -59,19 +59,6 @@ const Testimonials = () => {
             {/* <span>Coworker at Labenu</span> */}
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide className="testimonial-01 media">
-          <div className="avatar">
-            <Image src="/static/img/profile.png" title="fabricio-testemunial" alt="fabricio-testemunial" width={200} height={200}/>
-          </div>
-          <div className="media-body">
-            <p>
-              A Michelle se mostrou uma profissional comprometida e determinada. 
-              Sempre enfrentando os problema e com curiosidade de buscar soluções.  
-            </p>
-            <h6>Gabriela Nasciment</h6>
-            <span>Gerente at SulSystem</span>
-          </div>
-        </SwiperSlide> */}
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
             <Image src="/static/img/rafael-santos-testemunial.jpg" title="rafael-santos-testemunial" alt="rafael-santos-testemunial" width={200} height={200} />
