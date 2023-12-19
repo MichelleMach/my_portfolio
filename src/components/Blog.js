@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import moment from 'moment';
+import * as C from '../layout/MediumContainer'
 
 const Blog = () => {
 
@@ -12,7 +14,7 @@ const Blog = () => {
                 const data = await res.json();
                 const items = data.items;
                 setItems(items);
-                console.log(items)
+
             } catch {
                 setError(true);
             }
@@ -31,19 +33,20 @@ const Blog = () => {
                     <div className="title">
                         <h3 id="blog">My Medium.</h3>
                     </div>
-                    <ul>
+                    <C.ArticlePosts>
                         {items.map((item, index) => (
-                            <div key={index}>
+                            <C.PostContainer key={index}>
+                                <span>{moment(item.pubDate).format('DD/MM/YYYY')}</span>
                                 <a href={item.link} >
-                                    <h3>{item.title}</h3>
+                                    <C.TitlePost>{item.title}</C.TitlePost>
                                 </a>
-                            </div>
+                            </C.PostContainer>
                         ))}
-                    </ul>
-                    <a href={"https://machado.profile.medium.com/"}
-                    >
-                        Read More on Medium
-                    </a>
+
+                        <C.ButtonMedium className='px-btn px-btn-theme' href={"https://medium.com/@machado.profile"}>
+                            Veja mais
+                        </C.ButtonMedium>
+                    </C.ArticlePosts>
                 </section>
             </div>
         </section>
