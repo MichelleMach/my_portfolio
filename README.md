@@ -15,9 +15,9 @@ ser em fundo branco ou preto, além de ter um filtro para visualização de proj
 <div align='center'>
 <h3> Em Construção </h3>
 
- <li>:sparkles:Adicionar uma API pública do Medium ou Linkedin para que possa ser visto posts recentes da plataforma. </li>
- <li>:sparkles:Acrescentar mais efeitos no site, como o Paralax ao rolar a página, ou mneiras de deixar a tela mais flúida para o visitante. </li>
- <li>:sparkles:Ter mais opções de linguagem, como ingles, espanhol ou francês.</li>
+ <li>Adicionar uma API pública do Medium ou Linkedin para que possa ser visto posts recentes da plataforma. :heavy_check_mark:</li>
+ <li>Acrescentar mais efeitos no site, como o Paralax ao rolar a página, ou mneiras de deixar a tela mais flúida para o visitante. </li>
+ <li>Ter mais opções de linguagem, como ingles, espanhol ou francês.</li>
 </div>
 
 <br>
