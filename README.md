@@ -13,7 +13,7 @@ ser em fundo branco ou preto, além de ter um filtro para visualização de proj
 <br>
 
 <div align='center'>
-<h3> Em Construção! </h3>
+<h3> Em Construção </h3>
 
  <li>:sparkles:Adicionar uma API pública do Medium ou Linkedin para que possa ser visto posts recentes da plataforma. </li>
  <li>:sparkles:Acrescentar mais efeitos no site, como o Paralax ao rolar a página, ou mneiras de deixar a tela mais flúida para o visitante. </li>
