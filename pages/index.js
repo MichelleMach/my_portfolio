@@ -44,10 +44,10 @@ const IndexParticles = () => {
                 <div className="type-box">
                   <h1 className="font-alt">Michelle Machado</h1>
                   <p className="lead">
-                    Eu sou <TypingAnimation />
+                    I'm <TypingAnimation />
                   </p>
                   <p className="desc">
-                    Sou desenvolvedora e designer, com foco em estética e funcionalidade. Criando experiências digitais uma linha de código por vez.
+                  I am a developer and designer, focused on aesthetics and functionality. Creating digital experiences one line of code at a time.
                   </p>
                   <div className="btn-bar">
                     <button className="px-btn px-btn-theme" onClick={onButtonClick}>

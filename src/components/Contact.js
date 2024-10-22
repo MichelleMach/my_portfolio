@@ -61,10 +61,10 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
-              <h4>No que eu posso ajudar?</h4>
+              <h4>How I can help you?</h4>
               <p>
-                Me conte sobre o projeto, suas inspirações e quanto deseja investir
-                que eu irei responder o mais rápido possivel.
+              Tell me about the project, your inspirations, and how much you wish to invest, and I will respond as quickly as possible.
+
               </p>
               <ul>
                 <li className="media">
@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
-              <h4>Diga um ola</h4>
+              <h4>Say hi</h4>
               <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   <div className="col-md-6">

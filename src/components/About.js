@@ -25,13 +25,13 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                 Olá, tudo bem?
+                  Hello :)
                 </h3>
                 <p>
-                  Comecei minha jornada profissinal ao entrar para a faculdade de Publicidade aos 17 anos. 
-                  Estive na área da comunicação por 4 anos até que comecei a ter interesse pela área da 
-                  tecnologia e computação. Desde então, junto os conhecimentos obtidos para 
-                  entregar projetos criativos e diferenciados.
+                  After seven years of experience in design, my interest in technology and software development grew, leading me to make a significant career transition. To specialize, I participated in an intensive programming bootcamp and completed a technical course in web development.
+                  <br></br>
+                  <br></br>
+                  Today, I combine my strong foundation in creative design with advanced technology skills to deliver innovative projects, focused on both aesthetics and functionality, always with a technical and strategic perspective.
                 </p>
                 {/* <div className="row">
                   <div className="col-auto">
@@ -73,19 +73,21 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="aducation-box">
               <li>
-                <span>2021-Atual</span>
-                <h6>UNISINOS | Análise e Desenvolvimento de Sistemas</h6>
-                <p>A Unisinos é a primeira da América Latina com ênfase em qualidade de processos de software.</p>
+                <span>2021-Present</span>
+                <h6>UNISINOS | Systems Analysis and Development</h6>
+                <p>Unisinos is the first in Latin America to emphasize software process quality.</p>
+
               </li>
               <li>
                 <span>2022-2022</span>
-                <h6>LABENU | Bootcamp de Desenvolvimento Web</h6>
-                <p>Programa com mais de 1000 horas de experiência prática em desenvolvimento Full-stack.</p>
+                <h6>LABENU | Web Development Bootcamp</h6>
+                <p>Program with over 1000 hours of hands-on experience in Full-stack development.</p>
+
               </li>
               <li>
                 <span>2020-2022</span>
-                <h6>MBA PUC | Marketing, Branding e Growth</h6>
-                <p>A Pontifícia Universidade Católica está entre as mais tradicionais instituições de ensino superior do Brasil. </p>
+                <h6>MBA PUC | Marketing, Branding, and Growth</h6>
+                <p>The Pontifical Catholic University is among the most traditional higher education institutions in Brazil.</p>
               </li>
             </ul>
           </div>
@@ -93,9 +95,10 @@ const About = () => {
             <div className="skills-box">
               <h3>My skills</h3>
               <p>
-                Tenho mais de 3 anos com experiência em design, além de conhecimento para criar sites (como esse portfólio que você está vendo). 
-                Acredito que cada linha de código é um passo para resolver problemas ao redor do mundo.
+                I have over seven years of experience in design, along with the knowledge to create websites (like this portfolio you're viewing).
+                I believe that each line of code is a step towards solving problems around the world.
               </p>
+
               <div className="skill-lt">
                 <h6>HTML | CSS</h6>
                 <div className="skill-bar">
@@ -143,7 +146,15 @@ const About = () => {
                     <span data-toggle="tooltip" title="85%" />
                   </div>
                 </div>
-              </div>             
+              </div>
+              <div className="skill-lt">
+                <h6>Wordpress</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "74%" }}>
+                    <span data-toggle="tooltip" title="74%" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
