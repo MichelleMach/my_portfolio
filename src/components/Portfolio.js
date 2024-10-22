@@ -52,18 +52,18 @@ const Portfolio = () => {
               All
             </li>
             <li
-              className={`c-pointer ${activeBtn("front-end")}`}
-              onClick={handleFilterKeyChange("front-end")}
-              data-filter=".front-end"
+              className={`c-pointer ${activeBtn("web-design")}`}
+              onClick={handleFilterKeyChange("web-design")}
+              data-filter=".web-design"
             >
-              Front-End
+              Web Design
             </li>
             <li
-              className={`c-pointer ${activeBtn("back-end")}`}
-              onClick={handleFilterKeyChange("back-end")}
-              data-filter=".back-end"
+              className={`c-pointer ${activeBtn("fullstack")}`}
+              onClick={handleFilterKeyChange("fullstack")}
+              data-filter=".fullstack"
             >
-              Back-End
+              Full Stack
             </li>
             <li
               className={`c-pointer ${activeBtn("ux")}`}
@@ -76,7 +76,58 @@ const Portfolio = () => {
         </div>{" "}
         {/* Portfolio Filter */}
         <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-          <div className="grid-item front-end ux">
+          <div className="grid-item web-design">
+            <div className="portfolio-box-01">
+              <div className="portfolio-info">
+                <h5 className="white-color font-weight-bold">Universal Music</h5>
+                <span>Corporate Website</span>
+              </div>
+              <div className="portfolio-img">
+                <a
+                  href="https://daring-expectations-359258.framer.app/"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/universal.png" title="universal" alt="universal-music" width={1339} height={627} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid-item web-design">
+            <div className="portfolio-box-01">
+              <div className="portfolio-info">
+                <h5 className="white-color font-weight-bold">Axxis Arquitetura</h5>
+                <span>Corporate Website</span>
+              </div>
+              <div className="portfolio-img">
+                <a
+                  href="https://www.axxis.arq.br/"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/axxis.png" title="axxis-arquitetura" alt="axxis-arquitetura" width={1339} height={642} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid-item web-design">
+            <div className="portfolio-box-01">
+              <div className="portfolio-info">
+                <h5 className="white-color font-weight-bold">Tonin Embalagens</h5>
+                <span>Corporate Website</span>
+              </div>
+              <div className="portfolio-img">
+                <a
+                  href="https://toninembalagens.com.br/"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/tonin.png" title="tonin-embalagens" alt="tonin-embalagens" width={1314} height={642} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid-item fullstack">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">FutureEats Delivery</h5>
@@ -93,7 +144,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="grid-item front-end">
+          <div className="grid-item fullstack">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Pokedex</h5>
@@ -104,91 +155,45 @@ const Portfolio = () => {
                   href="https://pokedex16-battle.surge.sh"
                   className="gallery-link"
                 >
-                  <Image src="/static/img/portfolio-6.png" title="pokedex" alt="pokedex" width={300} height={380}/>
+                  <Image src="/static/img/portfolio-6.png" title="pokedex" alt="pokedex" width={300} height={380} />
                 </a>
               </div>
             </div>
           </div>
 
-          {/* <div className="grid-item front-end">
+          <div className="grid-item ux">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Controle-Financeiro</h5>
-                <span>Entrada, Saida e Total Financeiro</span>
+                <h5 className="white-color font-weight-bold">Graphic Design Portfolio</h5>
+                <span>Prototype</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/portfolio-5-1.png" title="controle-financeiro" alt="controle-financeiro" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-3.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <a
+                  href="https://xd.adobe.com/view/0a88e2bf-08ff-41bb-9d47-b301fefebc56-5fdb/?fullscreen"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/portf.png" title="portfolio" alt="portfolio" width={288} height={495} />
+                </a>
               </div>
             </div>
-          </div> */}
-          {/* <div className="grid-item back-end">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Jogo da Velha</h5>
-                <span>Tic Tac Toe</span>
-              </div>
-              <div className="portfolio-img">
-                  <a
-                    href="three-quartz.surge.sh"
-                    className="gallery-link"
-                  >
-                    <Image src="/static/img/jogo-da-velha.png" title="jogo-da-velha" alt="jogo-da-velha" />
-                  </a>
-              </div>
-            </div>
-          </div>{" "} */}
+          </div>
 
-
-
-          {/* grid item */}
-          {/* <div className="grid-item front-end">
+          <div className="grid-item ux">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Graphic Design Portfolio</h5>
+                <span>Prototype</span>
               </div>
               <div className="portfolio-img">
-                <Image src="/static/img/m-portfolio-8.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-8.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <a
+                  href="https://xd.adobe.com/view/0a88e2bf-08ff-41bb-9d47-b301fefebc56-5fdb/?fullscreen"
+                  className="gallery-link"
+                >
+                  <Image src="/static/img/portf.png" title="portfolio" alt="portfolio" width={288} height={495} />
+                </a>
               </div>
             </div>
-          </div>{" "} */}
-          {/* grid item */}
-          {/* <div className="grid-item ux">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <Image src="/static/img/m-portfolio-9.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-9.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "} */}
-          {/* grid item */}
+          </div>
         </div>
       </div>
     </section>
