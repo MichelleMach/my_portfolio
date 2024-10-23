@@ -5,6 +5,7 @@ const Testimonials = dynamic(() => import("./Testimonials"), {
 });
 
 const Services = () => {
+
   return (
     <section
       id="services"
@@ -22,8 +23,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>UX Design</h5>
                 <p>
-                  Crio protótipos de sites e aplicativos para que você possa escolher, 
-                  de forma personalizada, a melhor versão do seu serviço. 
+                  I create prototypes of websites and applications so you can choose,
+                  in a personalized way, the best version of your service.
+
                 </p>
               </div>
             </div>
@@ -34,8 +36,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Web Development</h5>
                 <p>
-                  Depois de definido como será o projeto, será passado para o desenvolvimento.
-                  É nesse processo que planejamento dará lugar a criação.
+                  Once the project's design is defined, it will move on to development.
+                  It is in this process that planning gives way to creation.
+
                 </p>
               </div>
             </div>
@@ -46,8 +49,8 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>SEO Marketing</h5>
                 <p>
-                  Depois do projeto já finalizado, está na hora de fazer com que o seu produto seja visto
-                  pelos seus clientes. O SEO irá proporcionar aumento na quantidade de visitação do seu site.
+                After the project is completed, it's time to ensure your product is seen by your customers. SEO will help increase the number of visits to your website.
+
                 </p>
               </div>
             </div>
@@ -58,15 +61,15 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Development Support </h5>
                 <p>
-                  Se você já tem um site ou sistema e precisa de manutenções, não se preocupe. 
-                  O seu problema será avaliado e solucionado de forma rápida. 
+                If you already have a website or system and need maintenance, don't worry. Your issue will be assessed and resolved quickly.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div className="separated" />
-        <Testimonials />
+
+        {/* <Testimonials /> */}
       </div>
     </section>
   );

@@ -95,12 +95,12 @@ const MenuWithOutBlog = () => {
           <span>Portfolio</span>
         </a>
       </li>
-      {/* <li data-menuanchor="blog" className="blog">
+      <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Blogs</span>
         </a>
-      </li> */}
+      </li>
       <li data-menuanchor="contact">
         <a className="nav-link" href="#contact">
           <i className="ti-map-alt" />
@@ -153,14 +153,14 @@ const MenuWithBlog = () => {
             </a>
           </Link>
         </li>
-        {/* <li data-menuanchor="blog" className="blog active">
+        <li data-menuanchor="blog" className="blog active">
           <Link href="/#blog">
             <a className="nav-link">
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
             </a>
           </Link>
-        </li> */}
+        </li>
         <li data-menuanchor="contact">
           <Link href="/#contact">
             <a className="nav-link">

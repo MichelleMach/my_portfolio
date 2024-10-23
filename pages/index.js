@@ -5,7 +5,8 @@ import Contact from "../src/components/Contact";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Services from "../src/components/Services";
 import Layout from "../src/layout/Layout";
-import Image from 'next/image'
+import Image from 'next/image';
+import Blog from "../src/components/Blog";
 
 const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
   ssr: false,
@@ -41,13 +42,12 @@ const IndexParticles = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
                 <div className="type-box">
-                  {/* <h6>Hello, I am</h6> */}
                   <h1 className="font-alt">Michelle Machado</h1>
                   <p className="lead">
-                    Eu sou <TypingAnimation />
+                    I'm <TypingAnimation />
                   </p>
                   <p className="desc">
-                    Sou desenvolvedora e designer, com foco em estética e funcionalidade. Criando experiências digitais uma linha de código por vez.
+                  I am a developer and designer, focused on aesthetics and functionality. Creating digital experiences one line of code at a time.
                   </p>
                   <div className="btn-bar">
                     <button className="px-btn px-btn-theme" onClick={onButtonClick}>
@@ -68,6 +68,7 @@ const IndexParticles = () => {
       <About />
       <Services />
       <Portfolio />
+      <Blog />
       <Contact />
     </Layout>
   );
