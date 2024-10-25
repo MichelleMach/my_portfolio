@@ -76,11 +76,7 @@ const Portfolio = () => {
         </div>{" "}
         {/* Portfolio Filter */}
         <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
-<<<<<<< HEAD
           <div className="grid-item web-design">
-=======
-        <div className="grid-item web-design">
->>>>>>> oauth2
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Universal Music</h5>
@@ -96,11 +92,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-
-=======
           
->>>>>>> oauth2
           <div className="grid-item web-design">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
@@ -180,16 +172,11 @@ const Portfolio = () => {
                   href="https://xd.adobe.com/view/0a88e2bf-08ff-41bb-9d47-b301fefebc56-5fdb/?fullscreen"
                   className="gallery-link"
                 >
-<<<<<<< HEAD
                   <Image src="/static/img/portf.png" title="portfolio" alt="portfolio" width={288} height={495} />
-=======
-                  <Image src="/static/img/portf.png" title="portfolio" alt="portfolio" width={288} height={495}/>
->>>>>>> oauth2
                 </a>
               </div>
             </div>
           </div>
-<<<<<<< HEAD
 
           <div className="grid-item ux">
             <div className="portfolio-box-01">
@@ -207,8 +194,6 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-=======
->>>>>>> oauth2
         </div>
       </div>
     </section>
